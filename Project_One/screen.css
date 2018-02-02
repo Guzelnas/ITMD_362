@@ -13,6 +13,7 @@ html {
   /* 18 / 16 = 1.125em */
   line-height: 1.222em;
   /* 22 / 18 = 1.222em */
+  background-color: #FFFAF0;
 }
 
 header {
