@@ -15,6 +15,13 @@ html {
   /* 22 / 18 = 1.222em */
 }
 
+header {
+  background-color: #FFB6C1;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-family: 'Tangerine', serif;
+}
+
 h1 {
   font-size: 2.25em;
   /* 40.5 / 18 = 2.25 */
