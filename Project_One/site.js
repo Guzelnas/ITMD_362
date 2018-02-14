@@ -5,7 +5,7 @@ $('#contact-form').on("submit", function(e) {
   if (!phoneValid.test(phone)) {
     console.log('invalid phone');
     $('#invalid').remove();
-    $('#contact-form').append('<li id="invalid">Phone must contain 10 digits!</li>');
+    $('#phone-number').append('<li id="invalid">Phone must contain 10 digits!</li>');
     return false;
   } else {
     $(this).remove();
