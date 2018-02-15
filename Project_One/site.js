@@ -1,14 +1,14 @@
 $('#contact-form').on("submit", function(e) {
-  var phone = $('#phone').val();
-  var phoneValid = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+  var email = $('#email').val();
+  var emailValid = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
   e.preventDefault();
-  if (!phoneValid.test(phone)) {
-    console.log('invalid phone');
+  if (!emailValid.test(email)) {
+    console.log('invalid email');
     $('#invalid').remove();
-    $('#phone-number').append('<li id="invalid">Phone must contain 10 digits!</li>');
+    $('#email-address').append('<li id="Please enter valid email!</li>');
     return false;
   } else {
     $(this).remove();
-    $('body').append('Thank you!');
+    $('html').append('Thank you!');
   }
 });
