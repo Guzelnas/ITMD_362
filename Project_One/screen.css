@@ -79,10 +79,6 @@ h2 {
   margin-top: 1em;
 }
 
-input {
-  font-family: serif;
-}
-
 li ol {
   padding-bottom: 1.125em;
 }
@@ -100,7 +96,7 @@ main {
 @media screen and (min-width: 600px) {
   body {
     background-image: url("images/cosmetics.png");
-    background-position: bottom 100%;
+    background-position: bottom 100px;
     background-repeat: no-repeat;
   }
   label {
