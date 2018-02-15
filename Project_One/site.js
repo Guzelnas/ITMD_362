@@ -9,6 +9,6 @@ $('#contact-form').on("submit", function(e) {
     return false;
   } else {
     $(this).remove();
-    $('html').append('Thank you!');
+    $('submit').append('Thank you!');
   }
 });
