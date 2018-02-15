@@ -103,10 +103,7 @@ main {
     background-position: bottom 100%;
     background-repeat: no-repeat;
   }
-  @media screen and (min-width: 1300px) {
-    body {
-      background-repeat: round;
-    }
+
     label {
       display: block;
       padding-bottom: 0.5em;
