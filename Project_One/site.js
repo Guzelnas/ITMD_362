@@ -5,7 +5,7 @@ $('#contact-form').on("submit", function(e) {
   if (!emailValid.test(email)) {
     console.log('invalid email');
     $('#invalid').remove();
-    $('#email-address').append('<li id="Please enter valid email!</li>');
+    $('#email-address').append('<li id="invalid">Please enter valid email!</li>');
     return false;
   } else {
     $(this).remove();
