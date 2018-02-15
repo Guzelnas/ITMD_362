@@ -52,6 +52,10 @@ html {
   /* 18 / 16 = 1.125em */
   line-height: 1.222em;
   /* 22 / 18 = 1.222em */
+}
+
+body{
+
   background-image: url("images/cosmetics.png");
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -105,7 +109,7 @@ main {
 
 @media screen and (min-width: 500px) {
   body {
-    
+
   }
   label {
     display: block;
