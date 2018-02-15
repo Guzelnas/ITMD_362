@@ -103,28 +103,32 @@ main {
     background-position: bottom 100%;
     background-repeat: no-repeat;
   }
-  label {
-    display: block;
-    padding-bottom: 0.5em;
-  }
-  input {
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    height: 2.364em;
-    padding: 0.682em;
-    border: 0;
-    background: #F0F8FF;
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1;
-  }
-  input:focus {
-    background: #EEE;
-  }
-  input[type="submit"] {
-    background: #008000;
-    color: #222;
-  }
-  #invalid {
-    color: red;
-  }
+  @media screen and (min-width: 1300px) {
+    body {
+      background-repeat: round;
+    }
+    label {
+      display: block;
+      padding-bottom: 0.5em;
+    }
+    input {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      height: 2.364em;
+      padding: 0.682em;
+      border: 0;
+      background: #F0F8FF;
+      font-family: Helvetica, Arial, sans-serif;
+      line-height: 1;
+    }
+    input:focus {
+      background: #EEE;
+    }
+    input[type="submit"] {
+      background: #008000;
+      color: #222;
+    }
+    #invalid {
+      color: red;
+    }
