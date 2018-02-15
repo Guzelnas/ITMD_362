@@ -130,6 +130,7 @@ main {
     background: #229;
     color: #FFF;
     border-radius: .3em;
+    margin-top: 0.5em;
   }
   #invalid {
     color: red;
