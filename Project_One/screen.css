@@ -59,11 +59,10 @@ header {
   line-height: 2.5em;
   font-size: 2.125em;
   color: white;
-
 }
 
 p {
-  font-size:1.2;
+  font-size: 1.2em;
   margin-bottom: 2em;
 }
 
@@ -135,3 +134,4 @@ main {
   #invalid {
     color: red;
   }
+}
