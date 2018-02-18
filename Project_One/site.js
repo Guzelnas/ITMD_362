@@ -13,11 +13,11 @@ $('#contact-form').on("submit", function(e) {
   else if (!nameValid.test(name)) {
     console.log('invalid name');
     $('#invalid').remove();
-    $('#Name').append('<li id="invalid">Letters only</li>');
+    $('#Name').append('<li id="invalid">Letters and spaces only!</li>');
     return false;
   } else {
     $(this).remove();
-    $('banner').remove();
+    $('#banner').remove();
     $('body').append('Thank you!');
   }
 });
