@@ -17,9 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block
 }
 
-html {
-  line-height: 1
-}
+
 
 body {
   line-height: inherit
@@ -52,6 +50,7 @@ html {
   /* 18 / 16 = 1.125em */
   line-height: 1.222em;
   /* 22 / 18 = 1.222em */
+  line-height: 1
 }
 
 body {
