@@ -18,9 +18,7 @@ html {
 
 
 body {
-  background-image: url("images/cosmetics.png");
-  background-position: bottom center;
-  background-repeat: no-repeat;
+
   min-height: 100vh;
 }
 
@@ -71,9 +69,11 @@ main {
   padding-bottom: 0.3125em;/*5px*/
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
   body {
-    background: none;
+    background-image: url("images/cosmetics.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
   }
 }
 
