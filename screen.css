@@ -113,13 +113,10 @@ main {
   }
 }
 
-@media screen and (max-width: 300px){
-  label{
-    padding-top:0.5em;
-  }
+@media screen and (min-width: 300px){
+
+
 }
-
-
   label {
     display: block;
     padding-bottom: 0.5em;
