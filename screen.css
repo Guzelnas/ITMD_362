@@ -77,9 +77,8 @@ main {
 }
 
 @media screen and (min-width: 320px) {
-  header {
+  .bunner {
     font-size: 1.125em;
-    line-height: 2em;
   }
   body {
     background-size: 70%;
