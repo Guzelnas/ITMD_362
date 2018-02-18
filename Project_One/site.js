@@ -18,6 +18,6 @@ $('#contact-form').on("submit", function(e) {
   } else {
     $(this).remove();
     $('#banner').remove();
-    $('body').append('Thank you! + name');
+    $('body').append('Thank you!');
   }
 });
