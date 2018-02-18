@@ -10,13 +10,12 @@ $('#contact-form').on("submit", function(e) {
     $('#email-address').append('<li id="invalid">Please enter valid email!</li>');
     return false;
   }
-  if (!nameValid.test(name)) {
+  else if (!nameValid.test(name)) {
     console.log('invalid name');
     $('#invalid').remove();
-    $('#Name').append('<li id="invalid">Letters only!</li>');
+    $('#Name').append('<li id="invalid">Letters only</li>');
     return false;
-  }
-   else {
+  } else {
     $(this).remove();
     $('submit').append('Thank you!');
   }
