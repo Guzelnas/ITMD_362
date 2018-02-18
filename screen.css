@@ -59,6 +59,7 @@ h2 {
 
 li ol {
   padding-bottom: 1.125em;/*18px*/
+  line-height: inherit;
 }
 
 main {
