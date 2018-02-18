@@ -40,7 +40,7 @@ h1 {
   /* 40.5 / 18 = 2.25 */
   line-height: 1.0864em;
   /* 44 / 40.5 = 1.0864 */
-  font-family: 'Tangerine', serif;
+  font-family: "Tangerine", serif;
 }
 
 h2 {
@@ -65,7 +65,7 @@ main {
 }
 
 .submit {
-  padding-top: 2px;
+  padding-top: 0.125em;
   padding-bottom: 5px;
 }
 
