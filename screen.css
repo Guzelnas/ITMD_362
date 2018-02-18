@@ -78,7 +78,7 @@ main {
 
 @media screen and (min-width: 320px) {
   .banner {
-    font-size: 1.125em;
+    font-size: 1em;
   }
   body {
     background-size: 70%;
