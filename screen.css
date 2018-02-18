@@ -76,7 +76,7 @@ main {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) {
   .banner {
     font-size: 0.5em;
   }
