@@ -107,7 +107,7 @@ main {
   padding-bottom: 5px;
 }
 
-@media screen and (mix-width: 300px) {
+@media screen and (min-width: 300px) {
   body {
     background: none;
   }
