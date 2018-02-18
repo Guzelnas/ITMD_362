@@ -34,7 +34,7 @@ header {
 p {
   font-size: 1.2em;
   margin-bottom: 2em;
-  line-height: normal;
+  line-height: inherit;
 }
 
 h1 {
