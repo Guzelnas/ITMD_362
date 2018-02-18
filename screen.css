@@ -117,9 +117,6 @@ main {
   header {
     font-size: 1.125em;
   }
-  label {
-    padding-top: 0.1em;
-  }
 }
 
 @media screen and (max-width: ) {
