@@ -76,12 +76,15 @@ main {
   }
 }
 
-@media screen and (min-width: 300px) {
-  .banner {
-    font-size: 0.5em;
+@media screen and (min-width: 320px) {
+  header {
+    font-size: 1.125em;
   }
   body {
     background-size: 70%;
+  }
+  .banner {
+    font-size: 1em;
   }
 }
 
