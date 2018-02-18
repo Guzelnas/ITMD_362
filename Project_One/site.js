@@ -9,8 +9,7 @@ $('#contact-form').on("submit", function(e) {
     $('#invalid').remove();
     $('#email-address').append('<li id="invalid">Please enter valid email!</li>');
     return false;
-  }
-  else if (!nameValid.test(name)) {
+  } else if (!nameValid.test(name)) {
     console.log('invalid name');
     $('#invalid').remove();
     $('#Name').append('<li id="invalid">Letters and spaces only!</li>');
@@ -18,6 +17,6 @@ $('#contact-form').on("submit", function(e) {
   } else {
     $(this).remove();
     $('#banner').remove();
-    $('body').append('Thank you!');
+    $('body').append('<h1>Thank you!</h1>');
   }
 });
