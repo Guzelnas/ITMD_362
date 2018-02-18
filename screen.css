@@ -59,6 +59,7 @@ h2 {
 
 li ol {
   padding-bottom: 1.125em;/*18px*/
+  font-size: 1em;
 }
 
 main {
@@ -116,7 +117,7 @@ input[type="submit"] {
   background: #229;
   color: #FFF;
   border-radius: 0.3em;/*4.8px*/
-  margin-top: 1em;/*14.4px*/
+  margin-top: 0.9em;/*14.4px*/
 }
 
 #invalid {
