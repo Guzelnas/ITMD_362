@@ -17,6 +17,6 @@ $('#contact-form').on("submit", function(e) {
   } else {
     $(this).remove();
     $('#banner').remove();
-    $('body').append('<h1>Thank you!</h1>');
+    $('body').append('<h2>Thank you!</h2>');
   }
 });
