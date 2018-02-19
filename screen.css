@@ -89,6 +89,7 @@ h2 {
 }
 
 li ol {
+  line-height: 1;
   padding-bottom: 1.125em;
   /*18px*/
 }
